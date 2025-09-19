@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AI_Rock_Fall_Prediction/static/css/main.c01e817b.css",
+    "main.js": "/AI_Rock_Fall_Prediction/static/js/main.986899d2.js",
+    "static/js/453.de5990a5.chunk.js": "/AI_Rock_Fall_Prediction/static/js/453.de5990a5.chunk.js",
+    "index.html": "/AI_Rock_Fall_Prediction/index.html",
+    "main.c01e817b.css.map": "/AI_Rock_Fall_Prediction/static/css/main.c01e817b.css.map",
+    "main.986899d2.js.map": "/AI_Rock_Fall_Prediction/static/js/main.986899d2.js.map",
+    "453.de5990a5.chunk.js.map": "/AI_Rock_Fall_Prediction/static/js/453.de5990a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c01e817b.css",
+    "static/js/main.986899d2.js"
+  ]
+}
