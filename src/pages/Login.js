@@ -2,14 +2,15 @@ import React from "react";
 //import "./style.css";   // global styles
 import "./login.css";   // login page styles
 
-function Miner() {
+function Login() {
   return (
     <div className="login-page">
       <div className="login-container">
         <div className="login-box">
-          <a href="/" className="login-logo">Smart Mine AI</a>
-          <h2>Welcome Back!</h2>
-          <p>Enter your credentials to access your dashboard.</p>
+          <a href="/" className="login-logo">Welcome Back !</a>
+          {/* <h2>Create Your Account</h2> */}
+          <p>Enter your credentials to access your dashboard.
+</p>
 
           <form>
             <div className="input-group">
@@ -57,4 +58,4 @@ function Miner() {
   );
 }
 
-export default Miner;
+export default Login;

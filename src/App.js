@@ -50,8 +50,8 @@ import "./App.css";
 import Home from "./pages/home";   // 👈 NEW
 import Dashboard from "./pages/Dashboard";
 import Map from "./pages/Map";
-import Miner from "./pages/Miner";
-import Admin from "./pages/Admin";
+import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 
 export default function App() {
   return (
@@ -66,8 +66,8 @@ export default function App() {
             <li><Link to="/">Home</Link></li>   {/* 👈 Changed */}
             <li><Link to="/dashboard">Dashboard</Link></li>
             <li><Link to="/map">Map</Link></li>
-            <li><Link to="/miner">Miner</Link></li>
-            <li><Link to="/admin">Admin</Link></li>
+            <li><Link to="/signup">Signup</Link></li>
+            <li><Link to="/login">Login</Link></li>
           </ul>
         </nav>
 
@@ -77,8 +77,8 @@ export default function App() {
             <Route path="/" element={<Home />} />  {/* 👈 Default homepage */}
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/map" element={<Map />} />
-            <Route path="/miner" element={<Miner />} />
-            <Route path="/admin" element={<Admin />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/Login" element={<Login />} />
           </Routes>
         </div>
 

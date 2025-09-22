@@ -14,10 +14,10 @@ export default function Dashboard() {
      fontSize : '18px'
    };
    const color1 ={
-      color:'deeppink'
+      color:'#8462d9ff'
    };
     const color2 ={
-      color:'yellow'
+      color:'#d764d9ff'
    };
   return (
     <div className="page">
