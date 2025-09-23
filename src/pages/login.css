@@ -1,49 +1,62 @@
 /* --- Login Page Specific Styles --- */
 
-body.login-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* min-height: 100vh; */
-    background-color: var(--primary-color);
-    /* Re-using hero background for consistency */
-    /* background-image: url('https://images.unsplash.com/photo-1583350891314-0e0a1b5b3f61?q=80&w=1974&auto=format&fit=crop'); */
-    /* background-size: cover;
-    background-position: center; */
-    position: relative;
-    color: var(--light-color); /* Default text color for this page */
-    overflow: hidden; /* Prevents scrollbars during animation */
-    animation: panBackground 60s infinite alternate ease-in-out;
+/* --- Login Page Specific Styles --- */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: var(--primary-color);
+  position: relative;
+  color: var(--light-color);
+  overflow: hidden;
+  animation: panBackground 60s infinite alternate ease-in-out;
 }
 
 body.login-page::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(0deg, rgba(10, 38, 71, 0.95) 0%, rgba(20, 66, 114, 0.85) 100%);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(10, 38, 71, 0.95) 0%, rgba(20, 66, 114, 0.85) 100%);
+  z-index: 0;
 }
 
 .login-container {
-    position: relative;
-    z-index: -100;
-    padding: 2rem;
+  position: relative;
+  padding: 2rem;
+  z-index: 1; /* Ensures it's above the background overlay */
+  width: 100%;
+  max-width: 450px;
 }
 
 .login-box {
-    width: 100%;
-    max-width: 450px;
-    background-color: rgba(20, 66, 114, 0.5); /* Using a semi-transparent secondary color */
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 3rem;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  width: 100%;
+  background-color: rgba(20, 66, 114, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+/* ... Keep the rest of your styles unchanged ... */
+
+
+.login-box {
+  width: 100%;
+  background-color: rgba(20, 66, 114, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
 .login-logo {
     font-size: 2rem;
     font-weight: 700;
